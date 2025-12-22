@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net10.0": {
+      "LambdaToXpath/1.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/LambdaToXpath.dll": {}
+        },
+        "runtime": {
+          "lib/LambdaToXpath.dll": {}
+        }
+      },
       "Microsoft.ApplicationInsights/2.23.0": {
         "type": "package",
         "compile": {
@@ -26,6 +35,22 @@
         "build": {
           "build/netstandard2.0/Microsoft.CodeCoverage.props": {},
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
       "Microsoft.NET.Test.Sdk/18.0.1": {
@@ -668,6 +693,18 @@
           "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {}
         }
       },
+      "Selenium.Firefox.WebDriver/0.27.0": {
+        "type": "package",
+        "build": {
+          "build/Selenium.Firefox.WebDriver.targets": {}
+        }
+      },
+      "Selenium.InternetExplorer.WebDriver/3.150.1": {
+        "type": "package",
+        "build": {
+          "build/Selenium.InternetExplorer.WebDriver.targets": {}
+        }
+      },
       "Selenium.Support/4.39.0": {
         "type": "package",
         "dependencies": {
@@ -713,10 +750,36 @@
             "rid": "win"
           }
         }
+      },
+      "Sl.Selenium.Extensions/2.1.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.1",
+          "Selenium.Support": "4.3.0",
+          "Selenium.WebDriver": "4.3.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Selenium.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Selenium.Extensions.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "LambdaToXpath/1.1.0": {
+      "sha512": "OqsFxinQgdhy69zJFh6YosAlmpZWKA5xTJLuPR7hudCk953i54qZc0PRRys4zH0kbT2H+9nlzKccggFMjrr8zw==",
+      "type": "package",
+      "path": "lambdatoxpath/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lambdatoxpath.1.1.0.nupkg.sha512",
+        "lambdatoxpath.nuspec",
+        "lib/LambdaToXpath.dll"
+      ]
+    },
     "Microsoft.ApplicationInsights/2.23.0": {
       "sha512": "nWArUZTdU7iqZLycLKWe0TDms48KKGE6pONH2terYNa8REXiqixrMOkf1sk5DHGMaUTqONU2YkS4SAXBhLStgw==",
       "type": "package",
@@ -818,6 +881,58 @@
         "lib/net8.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
         "microsoft.codecoverage.18.0.1.nupkg.sha512",
         "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/6.0.1": {
+      "sha512": "dzB2Cgg+JmrouhjkcQGzSFjjvpwlq353i8oBQO2GWNjCXSzhbtBRUf28HSauWe7eib3wYOdb3tItdjRwAdwCSg==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/Microsoft.Extensions.Logging.Generators.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/Microsoft.Extensions.Logging.Generators.resources.dll",
+        "build/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
       ]
     },
     "Microsoft.NET.Test.Sdk/18.0.1": {
@@ -1503,6 +1618,32 @@
         "openqa.selenium.chrome.chromedriverextensions.nuspec"
       ]
     },
+    "Selenium.Firefox.WebDriver/0.27.0": {
+      "sha512": "HwCaTaa+snzkLF7ZVaxKSmdttKm+KXT7HOY8c1q8p9E7x05+WHqw5XaZjUGFytVT1+0FkgUoH/u/I+csPLeJAg==",
+      "type": "package",
+      "path": "selenium.firefox.webdriver/0.27.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.Firefox.WebDriver.targets",
+        "driver/geckodriver.exe",
+        "selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+        "selenium.firefox.webdriver.nuspec"
+      ]
+    },
+    "Selenium.InternetExplorer.WebDriver/3.150.1": {
+      "sha512": "pPW6WMvyrArFLSKnRGj9lKsC06FqnNlUC5lC+Y2ZOM+rBY4nB8JDAIelOySLKmk+yIqKE20CSd8GDrECFHObag==",
+      "type": "package",
+      "path": "selenium.internetexplorer.webdriver/3.150.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Selenium.InternetExplorer.WebDriver.targets",
+        "driver/IEDriverServer.exe",
+        "selenium.internetexplorer.webdriver.3.150.1.nupkg.sha512",
+        "selenium.internetexplorer.webdriver.nuspec"
+      ]
+    },
     "Selenium.Support/4.39.0": {
       "sha512": "G27Hr8k9gGZ0lxdFqTnoJEwZ2l8nq+GFOs5AB9OqGXkHRznS13uDG7CFtMMgG9k4Dy06XTYJLrnENYTa/nVFhw==",
       "type": "package",
@@ -1540,16 +1681,34 @@
         "selenium.webdriver.4.39.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
+    },
+    "Sl.Selenium.Extensions/2.1.1": {
+      "sha512": "aT+GynibH4d12A/7WTn9bspaXw0BGAs8q4ANPxxGSeAJhHL8UfW2qqs/YHx/6hGh/DKM/t9zfdz5HpLXpzCVcg==",
+      "type": "package",
+      "path": "sl.selenium.extensions/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "lib/netstandard2.0/Selenium.Extensions.dll",
+        "sl.selenium.extensions.2.1.1.nupkg.sha512",
+        "sl.selenium.extensions.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "LambdaToXpath >= 1.1.0",
       "Microsoft.NET.Test.Sdk >= 18.0.1",
       "NUnit >= 4.4.0",
       "NUnit3TestAdapter >= 6.0.1-alpha.6",
       "OpenQA.Selenium.Chrome.ChromeDriverExtensions >= 1.2.0",
+      "Selenium.Firefox.WebDriver >= 0.27.0",
+      "Selenium.InternetExplorer.WebDriver >= 3.150.1",
       "Selenium.Support >= 4.39.0",
-      "Selenium.WebDriver >= 4.39.0"
+      "Selenium.WebDriver >= 4.39.0",
+      "Sl.Selenium.Extensions >= 2.1.1"
     ]
   },
   "packageFolders": {
@@ -1595,6 +1754,10 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "LambdaToXpath": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[18.0.1, )"
@@ -1611,6 +1774,14 @@
             "target": "Package",
             "version": "[1.2.0, )"
           },
+          "Selenium.Firefox.WebDriver": {
+            "target": "Package",
+            "version": "[0.27.0, )"
+          },
+          "Selenium.InternetExplorer.WebDriver": {
+            "target": "Package",
+            "version": "[3.150.1, )"
+          },
           "Selenium.Support": {
             "target": "Package",
             "version": "[4.39.0, )"
@@ -1618,6 +1789,10 @@
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.39.0, )"
+          },
+          "Sl.Selenium.Extensions": {
+            "target": "Package",
+            "version": "[2.1.1, )"
           }
         },
         "imports": [
@@ -1913,5 +2088,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'LambdaToXpath 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "libraryId": "LambdaToXpath",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

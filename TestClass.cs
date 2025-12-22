@@ -8,10 +8,12 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Chrome.ChromeDriverExtensions;
 using Selenium_PJ1_Csharp.Baseclass;
+using LambdaToXpath;
+using Selenium.Extensions;
 using System.Threading;
 using OpenQA.Selenium.Support.UI;
 
-namespace Selenium_PJ1_Csharp
+namespace Selenium_PJ1_Csharp.TestClass
 {
     [TestFixture]
     public class TestClass : BaseTest
@@ -21,28 +23,29 @@ namespace Selenium_PJ1_Csharp
         {
             // IWebDriver driver = new ChromeDriver();
             // driver.Url = "https://www.facebook.com";
-            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@id='u_0_h_ah']"));
-            emailTextField.SendKeys("Selenium C#");
+            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            emailTextField.SendKeys("thanhthanh0535@gmail.com");
             IWebElement monthDropdownlist = driver.FindElement(By.XPath(".//*[@id='month']"));
             SelectElement element = new SelectElement(monthDropdownlist);
             element.SelectByIndex(1); //Select by index
             element.SelectByText("Feb"); //Select by text
-            element.SelectByValue("4"); //Select by value
+            element.SelectByValue("2"); //Select by value
+            Thread.Sleep(5000);
             //driver.Quit();
         }
 
         [Test, Category("Regression Testing")]
         public void TestMethod2()
         {
-            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@id='email']"));
-            emailTextField.SendKeys("Selenium C#");
+            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            emailTextField.SendKeys("thanhthanh0535@gmail.com");
         }
 
         [Test, Category("Smoke Testing")]
         public void TestMethod3()
         {
-            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@id='email']"));
-            emailTextField.SendKeys("Selenium C#");
+            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            emailTextField.SendKeys("thanhthanh0535@gmail.com");
             Thread.Sleep(5000);
         }
 

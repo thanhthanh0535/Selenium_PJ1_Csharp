@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yhw7IM+KtHs=",
+  "dgSpecHash": "0BwrNC1XTos=",
   "success": true,
   "projectFilePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
   "expectedPackageFiles": [
+    "/Users/thanhthanh0535/.nuget/packages/lambdatoxpath/1.1.0/lambdatoxpath.1.1.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.codecoverage/18.0.1/microsoft.codecoverage.18.0.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.net.test.sdk/18.0.1/microsoft.net.test.sdk.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testing.extensions.telemetry/2.0.2/microsoft.testing.extensions.telemetry.2.0.2.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testing.extensions.trxreport.abstractions/2.0.2/microsoft.testing.extensions.trxreport.abstractions.2.0.2.nupkg.sha512",
@@ -19,8 +21,24 @@
     "/Users/thanhthanh0535/.nuget/packages/nunit/4.4.0/nunit.4.4.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/nunit3testadapter/6.0.1-alpha.6/nunit3testadapter.6.0.1-alpha.6.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/openqa.selenium.chrome.chromedriverextensions/1.2.0/openqa.selenium.chrome.chromedriverextensions.1.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/selenium.firefox.webdriver/0.27.0/selenium.firefox.webdriver.0.27.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/selenium.internetexplorer.webdriver/3.150.1/selenium.internetexplorer.webdriver.3.150.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.support/4.39.0/selenium.support.4.39.0.nupkg.sha512",
-    "/Users/thanhthanh0535/.nuget/packages/selenium.webdriver/4.39.0/selenium.webdriver.4.39.0.nupkg.sha512"
+    "/Users/thanhthanh0535/.nuget/packages/selenium.webdriver/4.39.0/selenium.webdriver.4.39.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/sl.selenium.extensions/2.1.1/sl.selenium.extensions.2.1.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'LambdaToXpath 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "LambdaToXpath",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
