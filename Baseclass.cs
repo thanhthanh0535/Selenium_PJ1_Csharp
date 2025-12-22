@@ -14,15 +14,15 @@ namespace Selenium_PJ1_Csharp.Baseclass
     public class BaseTest
     {
         public IWebDriver driver;
-        [OneTimeSetUp]
+        [SetUp]
         public void Open()
         {
-            // public IWebDriver driver;
             driver = new ChromeDriver();
-            driver.Url = "https://www.facebook.com";
+            driver.Manage().Window.Maximize();
+            driver.Url = "https://www.facebook.com/r.php?entry_point=login";
         }
 
-        [OneTimeTearDown]
+        [TearDown]
         public void Close()
         {
             driver.Quit();

@@ -171,6 +171,7 @@
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/Selenium_PJ1_Csharp1.AssemblyInfoInputs.cache
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/Selenium_PJ1_Csharp1.AssemblyInfo.cs
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/Selenium_PJ1_Csharp1.csproj.CoreCompileInputs.cache
+/Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/Selenium_PJ1_Csharp1.sourcelink.json
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/Selenium.7DE14176.Up2Date
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/Selenium_PJ1_Csharp1.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/obj/Debug/net10.0/refint/Selenium_PJ1_Csharp1.dll
