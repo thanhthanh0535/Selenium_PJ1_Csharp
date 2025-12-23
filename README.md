@@ -1,6 +1,3 @@
-# lala
-# lala
-# lala
-# lala
-# lala
-lala1
+C# Selenium Project - Testing Facebook case
+
+//Author : Tran Thanh Thanh Nguyen
