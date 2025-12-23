@@ -80,6 +80,10 @@
               "target": "Package",
               "version": "[4.39.0, )"
             },
+            "Selenium.WebDriver.NetCoreWebDriverFactory": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Sl.Selenium.Extensions": {
               "target": "Package",
               "version": "[2.1.1, )"

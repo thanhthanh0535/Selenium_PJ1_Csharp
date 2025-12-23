@@ -12,6 +12,8 @@
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/LambdaToXpath.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.ApplicationInsights.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll
+/Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.dll
+/Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.Testing.Extensions.Telemetry.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Microsoft.Testing.Extensions.TrxReport.Abstractions.dll
@@ -33,6 +35,7 @@
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/WebDriver.Support.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/WebDriver.dll
+/Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/AlexanderOnTest.NetCoreWebDriverFactory.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Selenium.Extensions.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/cs/Microsoft.Testing.Extensions.Telemetry.resources.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/de/Microsoft.Testing.Extensions.Telemetry.resources.dll

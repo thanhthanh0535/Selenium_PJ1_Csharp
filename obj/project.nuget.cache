@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "0BwrNC1XTos=",
+  "dgSpecHash": "/DV6mV7E/r0=",
   "success": true,
   "projectFilePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
   "expectedPackageFiles": [
     "/Users/thanhthanh0535/.nuget/packages/lambdatoxpath/1.1.0/lambdatoxpath.1.1.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.codecoverage/18.0.1/microsoft.codecoverage.18.0.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.net.test.sdk/18.0.1/microsoft.net.test.sdk.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testing.extensions.telemetry/2.0.2/microsoft.testing.extensions.telemetry.2.0.2.nupkg.sha512",
@@ -25,6 +27,7 @@
     "/Users/thanhthanh0535/.nuget/packages/selenium.internetexplorer.webdriver/3.150.1/selenium.internetexplorer.webdriver.3.150.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.support/4.39.0/selenium.support.4.39.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.webdriver/4.39.0/selenium.webdriver.4.39.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/selenium.webdriver.netcorewebdriverfactory/4.1.0/selenium.webdriver.netcorewebdriverfactory.4.1.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/sl.selenium.extensions/2.1.1/sl.selenium.extensions.2.1.1.nupkg.sha512"
   ],
   "logs": [

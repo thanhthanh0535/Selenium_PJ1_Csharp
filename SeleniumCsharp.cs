@@ -1,0 +1,46 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.NetworkInformation;
+using System.Threading.Tasks;
+using NUnit.Framework;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+namespace Selenium_PJ1_Csharp
+{
+    [TestFixture]
+    public class SeleniumCsharp
+    {
+        [Test]
+        [Author("Tran Thanh Than Nguyen", "thanhthanh0535@gmail.com")]
+        [Description("Facebok login verify")]
+        public void Test1()
+        {
+            IWebDriver driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
+            driver.Url = "https://www.facebook.com/r.php?entry_point=login";
+            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            emailTextField.SendKeys("thanhthanh0535@gmail.com");
+            driver.Close();
+        }
+        static IList DataDrivenTesting()
+        {
+            ArrayList list = new ArrayList();
+            list.Add("https://www.facebook.com/r.php?entry_point=login");
+            return list;
+        }
+        // [Test]
+        // [Author("Tran Thanh Than Nguyen", "thanhthanh0535@gmail.com")]
+        // [Description("Facebok login verify")]
+        // public void Test2()
+        // {
+        //     IWebDriver driver = new ChromeDriver();
+        //     driver.Manage().Window.Maximize();
+        //     driver.Url = "https://www.facebook.com/r.php?entry_point=login";
+        //     IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+        //     emailTextField.SendKeys("thanhthanh0535@gmail.com");
+        //     driver.Close();
+        // }
+    }
+}
