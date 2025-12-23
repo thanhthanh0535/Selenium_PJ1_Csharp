@@ -6,6 +6,7 @@ using System.Net.NetworkInformation;
 using System.Threading.Tasks;
 using NUnit.Framework;
 using OpenQA.Selenium;
+using OpenQA.Selenium.BiDi.Script;
 using OpenQA.Selenium.Chrome;
 namespace Selenium_PJ1_Csharp
 {
@@ -15,19 +16,22 @@ namespace Selenium_PJ1_Csharp
         [Test]
         [Author("Tran Thanh Than Nguyen", "thanhthanh0535@gmail.com")]
         [Description("Facebok login verify")]
-        public void Test1()
+        [TestCaseSource("DataDrivenTesting")]
+        public void Test1(String urlName)
         {
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Url = "https://www.facebook.com/r.php?entry_point=login";
-            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
-            emailTextField.SendKeys("thanhthanh0535@gmail.com");
+            driver.Url = urlName;
+            //IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            //emailTextField.SendKeys("thanhthanh0535@gmail.com");
             driver.Close();
         }
         static IList DataDrivenTesting()
         {
             ArrayList list = new ArrayList();
             list.Add("https://www.facebook.com/r.php?entry_point=login");
+            list.Add("https://www.youtube.com");
+            list.Add("https://www.gmail.com");
             return list;
         }
         // [Test]
