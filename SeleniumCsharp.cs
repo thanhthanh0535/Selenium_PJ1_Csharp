@@ -11,7 +11,7 @@ using OpenQA.Selenium.Chrome;
 namespace Selenium_PJ1_Csharp
 {
     [TestFixture]
-    public class SeleniumCsharp
+    public class SeleniumCsharp4
     {
         [Test]
         [Author("Tran Thanh Than Nguyen", "thanhthanh0535@gmail.com")]
@@ -19,12 +19,28 @@ namespace Selenium_PJ1_Csharp
         [TestCaseSource("DataDrivenTesting")]
         public void Test1(String urlName)
         {
-            IWebDriver driver = new ChromeDriver();
+            IWebDriver driver = null;
+            try
+            {
+            driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Url = urlName;
             IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
-            //emailTextField.SendKeys("thanhthanh0535@gmail.com");
-            driver.Close();
+            emailTextField.SendKeys("thanhthanh0535@gmail.com");
+            driver.Quit();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.StackTrace);
+                throw;
+            }
+            finally
+            {
+                if(driver != null)
+                {
+                    driver.Quit();
+                }
+            }
         }
         static IList DataDrivenTesting()
         {
@@ -42,7 +58,7 @@ namespace Selenium_PJ1_Csharp
         //     IWebDriver driver = new ChromeDriver();
         //     driver.Manage().Window.Maximize();
         //     driver.Url = "https://www.facebook.com/r.php?entry_point=login";
-        //     IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+        //     IWebElement emailTextField= driver.FindElement(By.XPath(".*[@name='reg_email__']"));
         //     emailTextField.SendKeys("thanhthanh0535@gmail.com");
         //     driver.Close();
         // }
