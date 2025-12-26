@@ -22,7 +22,7 @@ namespace Selenium_PJ1_Csharp
             IWebDriver driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Url = urlName;
-            //IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
             //emailTextField.SendKeys("thanhthanh0535@gmail.com");
             driver.Close();
         }
