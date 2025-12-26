@@ -25,12 +25,15 @@ namespace Selenium_PJ1_Csharp
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
             driver.Url = urlName;
-            IWebElement emailTextField= driver.FindElement(By.XPath(".//*[@name='reg_email__']"));
+            IWebElement emailTextField= driver.FindElement(By.XPath(".*[@name='reg_email']"));
             emailTextField.SendKeys("thanhthanh0535@gmail.com");
             driver.Quit();
             }
             catch (Exception e)
             {
+                ITakesScreenshot ts = driver as ITakesScreenshot;
+                Screenshot screenshot = ts.GetScreenshot();
+                screenshot.SaveAsFile("/Users/thanhthanh0535/Selenium_PJ1_Csharp/screenshots/sc1.png");
                 Console.WriteLine(e.StackTrace);
                 throw;
             }
@@ -46,8 +49,8 @@ namespace Selenium_PJ1_Csharp
         {
             ArrayList list = new ArrayList();
             list.Add("https://www.facebook.com/r.php?entry_point=login");
-            list.Add("https://www.youtube.com");
-            list.Add("https://www.gmail.com");
+            // list.Add("https://www.youtube.com");
+            // list.Add("https://www.gmail.com");
             return list;
         }
         // [Test]
