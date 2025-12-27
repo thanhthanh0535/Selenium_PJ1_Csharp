@@ -1,16 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "/DV6mV7E/r0=",
+  "dgSpecHash": "OaLxihuK42M=",
   "success": true,
   "projectFilePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
   "expectedPackageFiles": [
+    "/Users/thanhthanh0535/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/extent.netcore/1.9.0/extent.netcore.1.9.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/extentreports/5.0.5-beta1/extentreports.5.0.5-beta1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/extentreports.core/1.0.3/extentreports.core.1.0.3.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/lambdatoxpath/1.1.0/lambdatoxpath.1.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/mcmaster.extensions.commandlineutils/3.0.0/mcmaster.extensions.commandlineutils.3.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.0/microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.razor.runtime/2.2.0/microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0/microsoft.codeanalysis.analyzers.3.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.codeanalysis.common/3.9.0/microsoft.codeanalysis.common.3.9.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.codeanalysis.csharp/3.9.0/microsoft.codeanalysis.csharp.3.9.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.codecoverage/18.0.1/microsoft.codecoverage.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.dependencyinjection/6.0.0/microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.1/microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.net.test.sdk/18.0.1/microsoft.net.test.sdk.18.0.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.netcore.app/2.1.0/microsoft.netcore.app.2.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.netcore.dotnetapphost/2.1.0/microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.netcore.dotnethostpolicy/2.1.0/microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.netcore.dotnethostresolver/2.1.0/microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.netcore.targets/2.1.0/microsoft.netcore.targets.2.1.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testing.extensions.telemetry/2.0.2/microsoft.testing.extensions.telemetry.2.0.2.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testing.extensions.trxreport.abstractions/2.0.2/microsoft.testing.extensions.trxreport.abstractions.2.0.2.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testing.extensions.vstestbridge/2.0.2/microsoft.testing.extensions.vstestbridge.2.0.2.nupkg.sha512",
@@ -19,18 +37,153 @@
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testplatform.adapterutilities/18.0.1/microsoft.testplatform.adapterutilities.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testplatform.objectmodel/18.0.1/microsoft.testplatform.objectmodel.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testplatform.testhost/18.0.1/microsoft.testplatform.testhost.18.0.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/mongodb.bson/2.10.4/mongodb.bson.2.10.4.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/mongodb.driver/2.8.0/mongodb.driver.2.8.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/mongodb.driver.core/2.8.0/mongodb.driver.core.2.8.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/nunit/4.4.0/nunit.4.4.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/nunit3testadapter/6.0.1-alpha.6/nunit3testadapter.6.0.1-alpha.6.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/openqa.selenium.chrome.chromedriverextensions/1.2.0/openqa.selenium.chrome.chromedriverextensions.1.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/razorengine.netcore/2.2.6/razorengine.netcore.2.2.6.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/razorengine.netcore.nixfix/1.0.1/razorengine.netcore.nixfix.1.0.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/reportunit/1.5.0-beta1/reportunit.1.5.0-beta1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.firefox.webdriver/0.27.0/selenium.firefox.webdriver.0.27.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.internetexplorer.webdriver/3.150.1/selenium.internetexplorer.webdriver.3.150.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.support/4.39.0/selenium.support.4.39.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.webdriver/4.39.0/selenium.webdriver.4.39.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/selenium.webdriver.netcorewebdriverfactory/4.1.0/selenium.webdriver.netcorewebdriverfactory.4.1.0.nupkg.sha512",
-    "/Users/thanhthanh0535/.nuget/packages/sl.selenium.extensions/2.1.1/sl.selenium.extensions.2.1.1.nupkg.sha512"
+    "/Users/thanhthanh0535/.nuget/packages/sl.selenium.extensions/2.1.1/sl.selenium.extensions.2.1.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.configuration.configurationmanager/4.5.0/system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.drawing.common/5.0.0/system.drawing.common.5.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.reactive/6.0.0/system.reactive.6.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.security.cryptography.protecteddata/4.5.0/system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.security.permissions/5.0.0/system.security.permissions.5.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-2xjx-v99w-gqf3",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-3gp9-h8hw-pxpw",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-3w5p-jhp5-c29q",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-5633-f33j-c6f7",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-6px8-22w5-w334",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-g5vf-38cp-4px9",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-vgwq-hfqc-58wv",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'Microsoft.NETCore.App' 2.1.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-x5qj-9vmx-7g6g",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'MongoDB.Driver' 2.8.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7j9m-j397-g4wx",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "MongoDB.Driver",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1904",
+      "level": "Warning",
+      "message": "Package 'System.Drawing.Common' 5.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

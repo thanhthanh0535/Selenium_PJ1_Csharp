@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "Selenium_PJ1_Csharp1/1.0.0": {
         "dependencies": {
+          "ExtentReports": "5.0.5-beta1",
+          "ExtentReports.Core": "1.0.3",
           "LambdaToXpath": "1.1.0",
           "Microsoft.NET.Test.Sdk": "18.0.1",
           "NUnit": "4.4.0",
@@ -16,10 +18,54 @@
           "Selenium.Support": "4.39.0",
           "Selenium.WebDriver": "4.39.0",
           "Selenium.WebDriver.NetCoreWebDriverFactory": "4.1.0",
-          "Sl.Selenium.Extensions": "2.1.1"
+          "Sl.Selenium.Extensions": "2.1.1",
+          "extent.netcore": "1.9.0"
         },
         "runtime": {
           "Selenium_PJ1_Csharp1.dll": {}
+        }
+      },
+      "DnsClient/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/DnsClient.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "extent.netcore/1.9.0": {
+        "dependencies": {
+          "ExtentReports.Core": "1.0.3",
+          "McMaster.Extensions.CommandLineUtils": "3.0.0",
+          "MongoDB.Bson": "2.10.4"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/extent.dll": {
+            "assemblyVersion": "1.9.0.0",
+            "fileVersion": "1.9.0.0"
+          }
+        }
+      },
+      "ExtentReports/5.0.5-beta1": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Reactive": "6.0.0"
+        }
+      },
+      "ExtentReports.Core/1.0.3": {
+        "dependencies": {
+          "MongoDB.Bson": "2.10.4",
+          "MongoDB.Driver": "2.8.0",
+          "MongoDB.Driver.Core": "2.8.0",
+          "Newtonsoft.Json": "13.0.3",
+          "RazorEngine.NetCore": "2.2.6",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/ExtentReports.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
         }
       },
       "LambdaToXpath/1.1.0": {
@@ -30,11 +76,159 @@
           }
         }
       },
+      "McMaster.Extensions.CommandLineUtils/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/McMaster.Extensions.CommandLineUtils.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "Microsoft.ApplicationInsights/2.23.0": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.ApplicationInsights.dll": {
             "assemblyVersion": "2.23.0.29",
             "fileVersion": "2.23.0.29"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Html.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Razor/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Razor.Language/3.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Language.dll": {
+            "assemblyVersion": "3.1.0.0",
+            "fileVersion": "3.100.19.56505"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Razor.Runtime/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Html.Abstractions": "2.2.0",
+          "Microsoft.AspNetCore.Razor": "2.2.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Razor.Runtime.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Common/3.9.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.900.21.12420"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/3.9.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "3.9.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.900.21.12420"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netcoreapp3.1/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netcoreapp3.1/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netcoreapp3.1/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp3.1/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netcoreapp3.1/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netcoreapp3.1/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netcoreapp3.1/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netcoreapp3.1/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp3.1/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netcoreapp3.1/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netcoreapp3.1/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netcoreapp3.1/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -592,6 +786,54 @@
           }
         }
       },
+      "Microsoft.Win32.SystemEvents/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "MongoDB.Bson/2.10.4": {
+        "runtime": {
+          "lib/netstandard1.5/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.10.4.0",
+            "fileVersion": "2.10.4.0"
+          }
+        }
+      },
+      "MongoDB.Driver/2.8.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.10.4",
+          "MongoDB.Driver.Core": "2.8.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/MongoDB.Driver.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
+      "MongoDB.Driver.Core/2.8.0": {
+        "dependencies": {
+          "DnsClient": "1.2.0",
+          "MongoDB.Bson": "2.10.4"
+        },
+        "runtime": {
+          "lib/netstandard1.5/MongoDB.Driver.Core.dll": {
+            "assemblyVersion": "2.8.0.0",
+            "fileVersion": "2.8.0.0"
+          }
+        }
+      },
       "Newtonsoft.Json/13.0.3": {
         "runtime": {
           "lib/net6.0/Newtonsoft.Json.dll": {
@@ -626,6 +868,21 @@
           "lib/netstandard2.0/OpenQA.Selenium.Chrome.ChromeDriverExtensions.dll": {
             "assemblyVersion": "1.2.0.0",
             "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "RazorEngine.NetCore/2.2.6": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Razor": "2.2.0",
+          "Microsoft.AspNetCore.Razor.Language": "3.1.0",
+          "Microsoft.AspNetCore.Razor.Runtime": "2.2.0",
+          "Microsoft.CodeAnalysis.CSharp": "3.9.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/RazorEngine.NetCore.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -689,6 +946,97 @@
             "fileVersion": "2.1.1.0"
           }
         }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Drawing.Common/5.0.0": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Reactive/6.0.0": {
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/5.0.0": {
+        "dependencies": {
+          "System.Windows.Extensions": "5.0.0"
+        },
+        "runtime": {
+          "lib/net5.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "System.Windows.Extensions/5.0.0": {
+        "dependencies": {
+          "System.Drawing.Common": "5.0.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
       }
     }
   },
@@ -698,6 +1046,34 @@
       "serviceable": false,
       "sha512": ""
     },
+    "DnsClient/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
+      "path": "dnsclient/1.2.0",
+      "hashPath": "dnsclient.1.2.0.nupkg.sha512"
+    },
+    "extent.netcore/1.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vCylYSnTFw5JaST3d/JRkvRIVShQxfS5mviqs64YnVVDClD41kqAagqAfMz1jxg4i2Bo0IOFvsScNQGSQUuQig==",
+      "path": "extent.netcore/1.9.0",
+      "hashPath": "extent.netcore.1.9.0.nupkg.sha512"
+    },
+    "ExtentReports/5.0.5-beta1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-auPZA3aUXzREgeHY72ym5p6hCwXQnUFc1HwVEy/0gwAwAIY6Wt2SRYunl/W5+cO8yR/8W6QndZ5PZ81BLSxB0w==",
+      "path": "extentreports/5.0.5-beta1",
+      "hashPath": "extentreports.5.0.5-beta1.nupkg.sha512"
+    },
+    "ExtentReports.Core/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2aRCTBHGRUdSAZHPWExRy2PX9cbuBNouFXa/3NMLGl4lhZbjEmrZPLlFgglPfDXRriw6DtqI1GGfxpitBx2CgA==",
+      "path": "extentreports.core/1.0.3",
+      "hashPath": "extentreports.core.1.0.3.nupkg.sha512"
+    },
     "LambdaToXpath/1.1.0": {
       "type": "package",
       "serviceable": true,
@@ -705,12 +1081,61 @@
       "path": "lambdatoxpath/1.1.0",
       "hashPath": "lambdatoxpath.1.1.0.nupkg.sha512"
     },
+    "McMaster.Extensions.CommandLineUtils/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Km485A+AaBUWjOr2D2k6EAK9vKgLuIGS3ov+a8Px6svaNuRfr3qPYYItMYZEsG/xrjgRs/6KE+Zx3lHONUHCbQ==",
+      "path": "mcmaster.extensions.commandlineutils/3.0.0",
+      "hashPath": "mcmaster.extensions.commandlineutils.3.0.0.nupkg.sha512"
+    },
     "Microsoft.ApplicationInsights/2.23.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-nWArUZTdU7iqZLycLKWe0TDms48KKGE6pONH2terYNa8REXiqixrMOkf1sk5DHGMaUTqONU2YkS4SAXBhLStgw==",
       "path": "microsoft.applicationinsights/2.23.0",
       "hashPath": "microsoft.applicationinsights.2.23.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y4rs5aMEXY8G7wJo5S3EEt6ltqyOTr/qOeZzfn+hw/fuQj5GppGckMY5psGLETo1U9hcT5MmAhaT5xtusM1b5g==",
+      "path": "microsoft.aspnetcore.html.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Razor/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V54PIyDCFl8COnTp9gezNHpUNHk7F9UnerGeZy3UfbnwYvfzbo+ipqQmSgeoESH8e0JvKhRTyQyZquW2EPtCmg==",
+      "path": "microsoft.aspnetcore.razor/2.2.0",
+      "hashPath": "microsoft.aspnetcore.razor.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Razor.Language/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-e/atqZ5CzmJWuG/yaYOzbWNON+oqNKfk1M/xTYW+hje/RoiUUjVP88wrX1s9rEHzaAU4UljIOSvMxLABc2X2gg==",
+      "path": "microsoft.aspnetcore.razor.language/3.1.0",
+      "hashPath": "microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Razor.Runtime/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7YqK+H61lN6yj9RiQUko7oaOhKtRR9Q/kBcoWNRemhJdTIWOh1OmdvJKzZrMWOlff3BAjejkPQm+0V0qXk+B1w==",
+      "path": "microsoft.aspnetcore.razor.runtime/2.2.0",
+      "hashPath": "microsoft.aspnetcore.razor.runtime.2.2.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Common/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HiWjF7PNIEngmFg2Xk8cZ/83lRIRkk9v+5ibbY5B7VvjNGdClGAMuWtZER9F5rGRR41VbJLco9ah73jFTh4vPw==",
+      "path": "microsoft.codeanalysis.common/3.9.0",
+      "hashPath": "microsoft.codeanalysis.common.3.9.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NTsiK3fnoZGemy4dBHrILwg9rL+jDnOJ7aixFu4EOWM1r6MZMrNCIhT2tO4AmIMdfICLPwj910uZRRLpbMnqHg==",
+      "path": "microsoft.codeanalysis.csharp/3.9.0",
+      "hashPath": "microsoft.codeanalysis.csharp.3.9.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/18.0.1": {
       "type": "package",
@@ -803,6 +1228,34 @@
       "path": "microsoft.testplatform.testhost/18.0.1",
       "hashPath": "microsoft.testplatform.testhost.18.0.1.nupkg.sha512"
     },
+    "Microsoft.Win32.SystemEvents/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bh6blKG8VAKvXiLe2L+sEsn62nc1Ij34MrNxepD2OCrS5cpCwQa9MeLyhVQPQ/R4Wlzwuy6wMK8hLb11QPDRsQ==",
+      "path": "microsoft.win32.systemevents/5.0.0",
+      "hashPath": "microsoft.win32.systemevents.5.0.0.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.10.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hLk3nlr2YMe8O5LBi6us9JQTEBT/Kabb92eAxgDIXlENS17FOFOmxbGnB5rvKEK1qOaoYWFfyEnLqTt/6hTlpw==",
+      "path": "mongodb.bson/2.10.4",
+      "hashPath": "mongodb.bson.2.10.4.nupkg.sha512"
+    },
+    "MongoDB.Driver/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CJ42SoZ7ul5l/NHcnrAkFyUsZXwbIHGtLskcLcHKBpCHeXxMUCQH76XnfQU/VzPh7RchvGTkRwxWJEf7ftZgAQ==",
+      "path": "mongodb.driver/2.8.0",
+      "hashPath": "mongodb.driver.2.8.0.nupkg.sha512"
+    },
+    "MongoDB.Driver.Core/2.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i+jDZN7nOnTGeCWcPdqopUx8dqxEsL2zGRBLWXTji4w+95kH9hEAuXmyMF129YEbojZwZ0xJ0/KL8+5bO3fM3Q==",
+      "path": "mongodb.driver.core/2.8.0",
+      "hashPath": "mongodb.driver.core.2.8.0.nupkg.sha512"
+    },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
@@ -831,6 +1284,13 @@
       "path": "openqa.selenium.chrome.chromedriverextensions/1.2.0",
       "hashPath": "openqa.selenium.chrome.chromedriverextensions.1.2.0.nupkg.sha512"
     },
+    "RazorEngine.NetCore/2.2.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oL2pH5SakFEYbqINDU8KTuCFopzyiw/ryiotEcidjatzGSSvLXz1/QXwZWp1y+oWpx7LI8sKD6yvWU+F1y3cQw==",
+      "path": "razorengine.netcore/2.2.6",
+      "hashPath": "razorengine.netcore.2.2.6.nupkg.sha512"
+    },
     "Selenium.Support/4.39.0": {
       "type": "package",
       "serviceable": true,
@@ -858,6 +1318,48 @@
       "sha512": "sha512-aT+GynibH4d12A/7WTn9bspaXw0BGAs8q4ANPxxGSeAJhHL8UfW2qqs/YHx/6hGh/DKM/t9zfdz5HpLXpzCVcg==",
       "path": "sl.selenium.extensions/2.1.1",
       "hashPath": "sl.selenium.extensions.2.1.1.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SztFwAnpfKC8+sEKXAFxCBWhKQaEd97EiOL7oZJZP56zbqnLpmxACWA8aGseaUExciuEAUuR9dY8f7HkTRAdnw==",
+      "path": "system.drawing.common/5.0.0",
+      "hashPath": "system.drawing.common.5.0.0.nupkg.sha512"
+    },
+    "System.Reactive/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uE8juAhEkp7KDBCdjDIE3H9R1HJuEHqeqX8nLX9gmYKWwsqk3T5qZlPx8qle5DPKimC/Fy3AFTdV7HamgCh9qQ==",
+      "path": "system.security.permissions/5.0.0",
+      "hashPath": "system.security.permissions.5.0.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
+      "path": "system.windows.extensions/5.0.0",
+      "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     }
   }
 }

@@ -22,4 +22,8 @@
     <Import Project="$(NuGetPackageRoot)microsoft.codecoverage/18.0.1/build/netstandard2.0/Microsoft.CodeCoverage.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage/18.0.1/build/netstandard2.0/Microsoft.CodeCoverage.props')" />
     <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk/18.0.1/build/net8.0/Microsoft.NET.Test.Sdk.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk/18.0.1/build/net8.0/Microsoft.NET.Test.Sdk.props')" />
   </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgReportUnit Condition=" '$(PkgReportUnit)' == '' ">/Users/thanhthanh0535/.nuget/packages/reportunit/1.5.0-beta1</PkgReportUnit>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/thanhthanh0535/.nuget/packages/microsoft.codeanalysis.analyzers/3.0.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+  </PropertyGroup>
 </Project>

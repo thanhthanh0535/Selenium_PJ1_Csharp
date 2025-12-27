@@ -44,6 +44,14 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "ExtentReports": {
+              "target": "Package",
+              "version": "[5.0.5-beta1, )"
+            },
+            "ExtentReports.Core": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
             "LambdaToXpath": {
               "target": "Package",
               "version": "[1.1.0, )"
@@ -63,6 +71,10 @@
             "OpenQA.Selenium.Chrome.ChromeDriverExtensions": {
               "target": "Package",
               "version": "[1.2.0, )"
+            },
+            "ReportUnit": {
+              "target": "Package",
+              "version": "[1.5.0-beta1, )"
             },
             "Selenium.Firefox.WebDriver": {
               "target": "Package",
@@ -87,6 +99,10 @@
             "Sl.Selenium.Extensions": {
               "target": "Package",
               "version": "[2.1.1, )"
+            },
+            "extent.netcore": {
+              "target": "Package",
+              "version": "[1.9.0, )"
             }
           },
           "imports": [
