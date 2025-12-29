@@ -17,3 +17,4 @@ Selenium_PJ1_Csharp.TestClass.OrderSkipAttribute.TestMethod3
 Selenium_PJ1_Csharp.TestClass.TestClass.TestMethod1
 Selenium_PJ1_Csharp.TestClass.TestClass.TestMethod2
 Selenium_PJ1_Csharp.TestClass.TestClass.TestMethod3
+Selenium_PJ1_Csharp.TestScript.Module1.TestMethod1

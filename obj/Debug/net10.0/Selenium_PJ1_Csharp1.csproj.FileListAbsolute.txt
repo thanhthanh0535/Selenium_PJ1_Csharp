@@ -10,6 +10,7 @@
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Selenium_PJ1_Csharp1.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/Selenium_PJ1_Csharp1.pdb
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/DnsClient.dll
+/Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/SeleniumExtras.PageObjects.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/extent.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/ExtentReports.dll
 /Users/thanhthanh0535/Selenium_PJ1_Csharp/bin/Debug/net10.0/LambdaToXpath.dll

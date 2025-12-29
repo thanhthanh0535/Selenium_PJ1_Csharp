@@ -7,6 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects.Core" Version="4.14.1" />
     <PackageReference Include="extent.netcore" Version="1.9.0" />
     <PackageReference Include="ExtentReports" Version="5.0.5-beta1" />
     <PackageReference Include="ExtentReports.Core" Version="1.0.3" />

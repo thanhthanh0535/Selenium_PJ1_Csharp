@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OaLxihuK42M=",
+  "dgSpecHash": "gX/M1VxrtHg=",
   "success": true,
   "projectFilePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
   "expectedPackageFiles": [
     "/Users/thanhthanh0535/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/dotnetseleniumextras.pageobjects/3.11.0/dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.14.1/dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/extent.netcore/1.9.0/extent.netcore.1.9.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/extentreports/5.0.5-beta1/extentreports.5.0.5-beta1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/extentreports.core/1.0.3/extentreports.core.1.0.3.nupkg.sha512",

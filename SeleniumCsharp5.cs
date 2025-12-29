@@ -57,6 +57,7 @@ namespace Selenium_PJ1_Csharp
             }
             catch (Exception e)
             {
+                test1.Log(Status.Fail, e.ToString());
                throw; 
             }
             finally

@@ -19,7 +19,8 @@ namespace Selenium_PJ1_Csharp.Baseclass
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Url = "https://www.facebook.com/r.php?entry_point=login";
+            //driver.Url = "https://www.facebook.com/r.php?entry_point=login";
+            driver.Url = "https://www.youtube.com/";
             
         }
 

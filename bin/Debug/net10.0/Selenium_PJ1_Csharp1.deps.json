@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "Selenium_PJ1_Csharp1/1.0.0": {
         "dependencies": {
+          "DotNetSeleniumExtras.PageObjects.Core": "4.14.1",
           "ExtentReports": "5.0.5-beta1",
           "ExtentReports.Core": "1.0.3",
           "LambdaToXpath": "1.1.0",
@@ -30,6 +31,17 @@
           "lib/netstandard2.0/DnsClient.dll": {
             "assemblyVersion": "1.2.0.0",
             "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "DotNetSeleniumExtras.PageObjects.Core/4.14.1": {
+        "dependencies": {
+          "Selenium.WebDriver": "4.39.0"
+        },
+        "runtime": {
+          "lib/net6.0/SeleniumExtras.PageObjects.dll": {
+            "assemblyVersion": "4.14.1.0",
+            "fileVersion": "4.14.1.0"
           }
         }
       },
@@ -1052,6 +1064,13 @@
       "sha512": "sha512-P34wUkeqU4FoQiOMV8OjpdeDZKs4d3r+VlHuKJ6eO5feiZgna3+9MF5orHRUn3DAv1g/HPE5hlkGucmxmsFfBw==",
       "path": "dnsclient/1.2.0",
       "hashPath": "dnsclient.1.2.0.nupkg.sha512"
+    },
+    "DotNetSeleniumExtras.PageObjects.Core/4.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LwKjGyJKwaGO0pmPaWx0kOtJoDiKKYMpundXF3AwqqBcOI86gumvUpjqq/giL8zatUXdecL89wb0U/KZh03p7g==",
+      "path": "dotnetseleniumextras.pageobjects.core/4.14.1",
+      "hashPath": "dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512"
     },
     "extent.netcore/1.9.0": {
       "type": "package",
