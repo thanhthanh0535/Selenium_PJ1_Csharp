@@ -24,7 +24,7 @@ namespace Selenium_PJ1_Csharp.PageObject
         public IWebElement SearchButton { get; set; }
         public ResultPage NavigateToResult()
         {
-            SearchBox.SendKeys("Selenium C# Full Course by Bakkappa N");
+            SearchBox.SendKeys("Mythborne - The Iron In Her Heart Bangers Only");
             SearchButton.Click();
             return new ResultPage(driver);
         }  

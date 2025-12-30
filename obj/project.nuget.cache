@@ -1,18 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "gX/M1VxrtHg=",
+  "dgSpecHash": "t+agpygbkzQ=",
   "success": true,
   "projectFilePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
   "expectedPackageFiles": [
+    "/Users/thanhthanh0535/.nuget/packages/aforge/2.2.5/aforge.2.2.5.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/aforge.imaging/2.2.5/aforge.imaging.2.2.5.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/aforge.math/2.2.5/aforge.math.2.2.5.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/dnsclient/1.2.0/dnsclient.1.2.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/dotnetseleniumextras.pageobjects/3.11.0/dotnetseleniumextras.pageobjects.3.11.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/dotnetseleniumextras.pageobjects.core/4.14.1/dotnetseleniumextras.pageobjects.core.4.14.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/extent.netcore/1.9.0/extent.netcore.1.9.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/extentreports/5.0.5-beta1/extentreports.5.0.5-beta1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/extentreports.core/1.0.3/extentreports.core.1.0.3.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/fluentnhibernate/2.0.3/fluentnhibernate.2.0.3.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/iesi.collections/4.0.0.4000/iesi.collections.4.0.0.4000.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/lambdatoxpath/1.1.0/lambdatoxpath.1.1.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/maintainableselenium.mvcpages/1.0.0.71/maintainableselenium.mvcpages.1.0.0.71.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/maintainableselenium.visualassertions/1.0.0.71/maintainableselenium.visualassertions.1.0.0.71.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/mcmaster.extensions.commandlineutils/3.0.0/mcmaster.extensions.commandlineutils.3.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnet.mvc/5.2.3/microsoft.aspnet.mvc.5.2.3.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnet.mvc.futures/5.0.0/microsoft.aspnet.mvc.futures.5.0.0.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnet.razor/3.2.3/microsoft.aspnet.razor.3.2.3.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnet.webpages/3.2.3/microsoft.aspnet.webpages.3.2.3.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.html.abstractions/2.2.0/microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.razor/2.2.0/microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.aspnetcore.razor.language/3.1.0/microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",
@@ -39,12 +50,14 @@
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testplatform.adapterutilities/18.0.1/microsoft.testplatform.adapterutilities.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testplatform.objectmodel/18.0.1/microsoft.testplatform.objectmodel.18.0.1.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.testplatform.testhost/18.0.1/microsoft.testplatform.testhost.18.0.1.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/microsoft.web.infrastructure/1.0.0/microsoft.web.infrastructure.1.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/mongodb.bson/2.10.4/mongodb.bson.2.10.4.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/mongodb.driver/2.8.0/mongodb.driver.2.8.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/mongodb.driver.core/2.8.0/mongodb.driver.core.2.8.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/thanhthanh0535/.nuget/packages/nhibernate/4.0.0.4000/nhibernate.4.0.0.4000.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/nunit/4.4.0/nunit.4.4.0.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/nunit3testadapter/6.0.1-alpha.6/nunit3testadapter.6.0.1-alpha.6.nupkg.sha512",
     "/Users/thanhthanh0535/.nuget/packages/openqa.selenium.chrome.chromedriverextensions/1.2.0/openqa.selenium.chrome.chromedriverextensions.1.2.0.nupkg.sha512",
@@ -66,6 +79,30 @@
     "/Users/thanhthanh0535/.nuget/packages/system.windows.extensions/5.0.0/system.windows.extensions.5.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "NHibernate 4.0.0.4000 depends on Iesi.Collections (>= 4.0.0 && < 5.0.0) but Iesi.Collections 4.0.0 was not found. Iesi.Collections 4.0.0.4000 was resolved instead.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Iesi.Collections",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "message": "FluentNHibernate 2.0.3 depends on NHibernate (>= 4.0.0) but NHibernate 4.0.0 was not found. NHibernate 4.0.0.4000 was resolved instead.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "NHibernate",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
     {
       "code": "NU1903",
       "level": "Warning",
@@ -175,6 +212,18 @@
       ]
     },
     {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'NHibernate' 4.0.0.4000 has a known high severity vulnerability, https://github.com/advisories/GHSA-fg4q-ccq8-3r5q",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "NHibernate",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
       "code": "NU1904",
       "level": "Warning",
       "message": "Package 'System.Drawing.Common' 5.0.0 has a known critical severity vulnerability, https://github.com/advisories/GHSA-rxg9-xrhp-64gj",
@@ -189,11 +238,167 @@
     {
       "code": "NU1701",
       "level": "Warning",
+      "message": "Package 'AForge 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "AForge",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Imaging 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "AForge.Imaging",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'AForge.Math 2.2.5' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "AForge.Math",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'FluentNHibernate 2.0.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "FluentNHibernate",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Iesi.Collections 4.0.0.4000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Iesi.Collections",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
       "message": "Package 'LambdaToXpath 1.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
       "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
       "warningLevel": 1,
       "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
       "libraryId": "LambdaToXpath",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'MaintainableSelenium.MvcPages 1.0.0.71' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "MaintainableSelenium.MvcPages",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'MaintainableSelenium.VisualAssertions 1.0.0.71' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "MaintainableSelenium.VisualAssertions",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Mvc 5.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Mvc.Futures 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.AspNet.Mvc.Futures",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.Razor 3.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.AspNet.WebPages 3.2.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'NHibernate 4.0.0.4000' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net10.0'. This package may not be fully compatible with your project.",
+      "projectPath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "warningLevel": 1,
+      "filePath": "/Users/thanhthanh0535/Selenium_PJ1_Csharp/Selenium_PJ1_Csharp1.csproj",
+      "libraryId": "NHibernate",
       "targetGraphs": [
         "net10.0"
       ]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Selenium_PJ1_Csharp1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a46ce6d990508c26488b45a405258b462245256f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6a7f52bacf6bcd484c796789dd6ee0240905c5ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Selenium_PJ1_Csharp1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Selenium_PJ1_Csharp1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
